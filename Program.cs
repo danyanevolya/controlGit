@@ -22,11 +22,13 @@ namespace ControlGit
             }
 
             double circleLength = 2 * Math.PI * radius;
+            double circleArea = Math.PI * Math.Pow(radius, 2);
             
+
             Console.WriteLine("\nРезультаты расчетов:");
             Console.WriteLine($"Радиус: {radius:F2}");
             Console.WriteLine($"Длина окружности: {circleLength:F2}");
-            
+            Console.WriteLine($"Площадь круга: {circleArea:F2}");
         }
     }
 }
