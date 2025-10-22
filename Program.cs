@@ -38,8 +38,10 @@ namespace ControlGit
             double secondSide = double.Parse(Console.ReadLine());
 
             double p = 2*(firstSide + secondSide);
+            double s = firstSide * secondSide;
 
             Console.WriteLine($"Периметр прямоугольника: {p:F2}");
+            Console.WriteLine($"Площадь прямоугольника: {s:F2}");
 
 
         }
