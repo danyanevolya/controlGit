@@ -30,6 +30,18 @@ namespace ControlGit
             Console.WriteLine($"Длина окружности: {circleLength:F2}");
             Console.WriteLine($"Площадь круга: {circleArea:F2}");
             Console.WriteLine($"Объем шара: {V:F2}");
+
+            Console.WriteLine("Начало части программы для прямоугольника:");
+            Console.WriteLine("Введите длину первой стороны прямоугольника:");
+            double firstSide = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину второй стороны прямоугольника:");
+            double secondSide = double.Parse(Console.ReadLine());
+
+            double p = 2*(firstSide + secondSide);
+
+            Console.WriteLine($"Периметр прямоугольника: {p:F2}");
+
+
         }
     }
 }
